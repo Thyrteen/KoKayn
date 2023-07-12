@@ -1,0 +1,180 @@
+.root {
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+}
+
+.hehe123 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: "Ysabeau Infant", sans-serif;
+    line-height: 1.7;
+}
+
+h1{
+    font-weight: thin;
+
+}
+
+.navbar {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(168, 56, 56);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.btn {
+    font-size: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.btn-brand:hover {
+    border-color: black;
+    background-color: black;
+    color: white    ;
+}
+
+.btn-brand {
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+
+.btn-light {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#hero {
+    background: linear-gradient(#00000000, #00000000), url(DSC08604.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title .line {
+    width: 140px;
+    height: 4px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.section-title h5 {
+    max-width: 600px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.col-lg-5 p {
+    font-size: 20px;
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 182, 182);
+    font-size: 40px;
+    color: white;
+    border-radius: 12px;
+}
+
+.col-lg-5 .line {
+    width: 200px;
+    height: 4px;
+    background-color: rgb(65, 65, 65);
+}
+
+.iconbox:hover {
+    background-color: rgb(78, 78, 78) ;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(.08,.28,.95,.71);
+}
+
+.theme-shadowbox {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+}
+
+.service {
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.service:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(.08,.28,.95,.71);
+}
+
+.service:hover .iconbox {
+    background-color: rgb(54, 54, 54);
+}
+
+#counter {
+    background: linear-gradient(#00000000, #00000000), url(DSC08605.JPG);
+    background-size: cover;
+    background-position: 0px 300px;
+    
+}
+
+img-zoom {
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper img {
+    transition: all 0.5s ease;
+    transition-duration: 0.2s;
+}
+
+.img-zoom:hover img {
+    transform: scale(1.1);
+}
+
+
+
+.hehe12 {
+    padding-top: 2px;
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+
+
